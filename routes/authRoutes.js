@@ -29,6 +29,9 @@ router.post('/login', async (req, res) => {
       last_sign_in_at: data.user.last_sign_in_at,
       access_token: data.session.access_token, 
       refresh_token: data.session.refresh_token,
+    },
+    session:{
+      
     }
 
   });
